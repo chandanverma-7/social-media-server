@@ -25,7 +25,7 @@ app.use(morgan('common'))
 app.use(cookieparser());
 app.use(cors({
     credentials:true,
-    origin:'http://localhost:3000'
+    origin:'https://chandan-verma.netlify.app'
 }))
 app.use("/auth",authRouter)
 app.use("/post",postrouter)
